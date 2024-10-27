@@ -12,7 +12,7 @@ import static io.qameta.allure.Allure.step;
 @Owner("Anuar Zhangeldi")
 @DisplayName("Check features on the Main Page")
 
-public class MainBeelinePageTests {
+public class MainBeelinePageTests extends TestBase{
 
     MainPage mainPage = new MainPage();
 
@@ -22,9 +22,7 @@ public class MainBeelinePageTests {
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz")
     @DisplayName("Check there is a Интернет-магазин on the Main Beeline Page")
     void checkOnlineShopTest(){
-        step("Open Beeline KZ page" ,() -> {
-            mainPage.openPage();
-        });
+
         step("Switch Main Page to RU language" ,() -> {
             mainPage.setLanguage("Рус");
         });
@@ -60,9 +58,7 @@ public class MainBeelinePageTests {
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz")
     @DisplayName("Check that user is able click on the Add Balance button and redirect to that page")
     void addBalanceTest(){
-        step("open Beeline KZ page" ,() -> {
-            mainPage.openPage();
-        });
+
         step("Switch Main Page to RU language" ,() -> {
             mainPage.setLanguage("Рус");
         });
@@ -80,9 +76,7 @@ public class MainBeelinePageTests {
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz")
     @DisplayName("Check that user is able scroll down to the positions section and open People Page")
     void openPeoplePageTest(){
-        step("open Beeline KZ page" ,() -> {
-            mainPage.openPage();
-        });
+
         step("Switch Main Page to RU language" ,() -> {
             mainPage.setLanguage("Рус");
         });
@@ -100,9 +94,7 @@ public class MainBeelinePageTests {
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz")
     @DisplayName("Check that user opens People Page from Main and search for QA Automation engineer")
     void searchQAPositionTest(){
-        step("open Beeline KZ page" ,() -> {
-            mainPage.openPage();
-        });
+
         step("Switch Main Page to RU language" ,() -> {
             mainPage.setLanguage("Рус");
         });

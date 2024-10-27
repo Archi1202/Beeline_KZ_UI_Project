@@ -15,7 +15,7 @@ public class MainPage {
 
 
     public MainPage openPage() {
-        open("https://beeline.kz/");
+        open("/");
         return this;
     }
 
