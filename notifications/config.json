@@ -1,0 +1,17 @@
+{
+  "base": {
+    "project": "Anuar Zhangeldi Beeline KZ QA Automation",
+    "environment": "DEV",
+    "comment": "Running 5 scenarios for Main and People pages",
+    "reportLink": "",
+    "language": "en",
+    "messenger": "telegram",
+    "allureFolder": "https://jenkins.autotests.cloud/job/hw14_BeelineKZ_QA_Automation_Position/ws/allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "8035823722:AAE-6IEagUy3Wh_3dGXGDsJ5UmzvMrrHupI",
+    "chat": "-1002279621856",
+    "replyTo": ""
+  }
+}
