@@ -10,7 +10,7 @@ import static io.qameta.allure.Allure.step;
 
 @Feature("Beeline Kazakhstan Main Page")
 @Owner("Anuar Zhangeldi")
-@DisplayName("Check features on the Main Page")
+@DisplayName("Check features on the Main Page and QA position search in Beeline People")
 
 public class MainBeelinePageTests extends TestBase{
 
@@ -114,5 +114,4 @@ public class MainBeelinePageTests extends TestBase{
             mainPage.checkPositionName("QA Automation engineer");
         });
     }
-
 }

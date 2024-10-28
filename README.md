@@ -13,11 +13,12 @@ Automated tests for the [Beeline Kazakhstan](https://beeline.kz) website, focusi
 - **Video Recordings**: Selenoid to capture test execution videos
 
 <p align="left">
-<img align="center" src="resources/pixeled Jenkins configures.png" width="40" height="40"/>
-<img align="center" src="resources/gradle-original-wordmark.svg" width="40" height="40"/>
-<img align="center" src="resources/intellij-original.svg" width="40" height="40"/>
-
-
+<img align="center" src="src/test/resources/jenkins.svg" width="40" height="40"/>
+<img align="center" src="src/test/resources/junit-original-wordmark.svg" width="40" height="40"/>
+<img align="center" src="src/test/resources/intellij-original.svg" width="40" height="40"/>
+<img align="center" src="src/test/resources/java-original-wordmark.svg" width="40" height="40"/>
+<img align="center" src="src/test/resources/gradle-original-wordmark.svg" width="40" height="40"/>
+<img align="center" src="src/test/resources/github-original-wordmark.svg" width="40" height="40"/>
 </p>
 ---
 
@@ -44,6 +45,10 @@ Automated tests for the [Beeline Kazakhstan](https://beeline.kz) website, focusi
 | TC04 | **Beeline People Page accessible from Main Page**                 | Check that user is able scroll down to the positions section and open [Beeline People Page](https://people.beeline.kz).              |
 | TC05 | **Search QA Automation Engineer Position in Beeline People Page** | Ensures that Beeline People can be opened from Main Page, search for QA Automation engineer and able to open details of position.    |
 
+### Example of Test Case from Allure Report (#5)
+
+<img align="center" src="src/test/resources/Steps of 5th test case.png" width="500" height="400"/>
+
 ---
 
 ## Allure Reports
@@ -54,8 +59,13 @@ To view Allure reports:
 1. Execute tests to generate the report: `mvn clean beeline_test`
 2. Generate the Allure report: `allure serve target/allure-results`
 
-Example Report:
-![Beeline Allure Report](resources/Allure Report view.png)
+**Example of Allure Report:**
+![Beeline Allure Report](src/test/resources/Allure Report view.png)
+
+
+**Example of Test Case Steps from Allure Report (#5):**
+
+<img align="center" src="src/test/resources/Steps of 5th test case.png" width="500" height="400"/>
 
 ---
 
@@ -66,6 +76,9 @@ Real-time notifications are set up via a Telegram bot, alerting the team on test
 - Summary of tests executed, including failed tests
 - Quick links to detailed reports
 
+**Telegram Notification for Beeline KZ**  
+
+<img align="center" src="src/test/resources/Telegram Notification BeelineKZ.png" width="500" height="400"/>
 ---
 
 ## Test Execution Video from Selenoid
@@ -75,7 +88,7 @@ Selenoid is used for cross-browser testing and video recording, enabling real-ti
 1. Each test execution is recorded.
 2. Videos are stored and can be accessed in Jenkins or a specified server path.
 
-**Example Test Execution Video**:
-![Test Video Example](https://user-images.githubusercontent.com/yourusername/selenoid-video.png)
+**Example Test Execution Video:**
+[![Test Video Example](src/test/resources/5th Test Case_QA_Automation_Position_Search.mp4)]
 
 ---
