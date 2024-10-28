@@ -1,4 +1,3 @@
-readme_content = """
 # Beeline Kazakhstan - QA Automation engineer 
 
 Automated tests for the [Beeline Kazakhstan](https://beeline.kz) website, focusing on navigation, element visibility, and redirection to the **Вакансии и карьера в Beeline**, where QA positions are displayed.
@@ -46,10 +45,6 @@ Automated tests for the [Beeline Kazakhstan](https://beeline.kz) website, focusi
 | TC04 | **Beeline People Page accessible from Main Page**                 | Check that user is able scroll down to the positions section and open [Beeline People Page](https://people.beeline.kz).              |
 | TC05 | **Search QA Automation Engineer Position in Beeline People Page** | Ensures that Beeline People can be opened from Main Page, search for QA Automation engineer and able to open details of position.    |
 
-### Example of Test Case from Allure Report (#5)
-
-<img align="center" src="src/test/resources/Steps of 5th test case.png" width="500" height="400"/>
-
 ---
 
 ## Allure Reports
@@ -61,7 +56,7 @@ To view Allure reports:
 2. Generate the Allure report: `allure serve target/allure-results`
 
 **Example of Allure Report:**
-![Beeline Allure Report](src/test/resources/Allure Report view.png)
+<img align="center" src="src/test/resources/Allure Report view.png" width="500" height="400"/>
 
 
 **Example of Test Case Steps from Allure Report (#5):**
@@ -90,6 +85,8 @@ Selenoid is used for cross-browser testing and video recording, enabling real-ti
 2. Videos are stored and can be accessed in Jenkins or a specified server path.
 
 **Example Test Execution Video:**
-[![Test Video Example](src/test/resources/5th Test Case_QA_Automation_Position_Search.mp4)]
+
+https://github.com/user-attachments/assets/01435b3b-6273-4222-bdfe-4ede61402566
+
 
 ---
