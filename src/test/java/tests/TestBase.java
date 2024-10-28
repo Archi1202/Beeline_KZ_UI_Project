@@ -50,10 +50,8 @@ public class TestBase {
     @AfterEach
     protected void tearDown() {
         Attach.screenshotAs("Last Screenshot");
-        if (!Configuration.browser.equals("firefox")) {
-            Attach.pageSource();
-            Attach.browserConsoleLogs();
-        }
+        Attach.pageSource();
+        Attach.browserConsoleLogs();
         Attach.addVideo();
         Selenide.closeWebDriver();
     }
