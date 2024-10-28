@@ -13,16 +13,17 @@ Automated tests for the [Beeline Kazakhstan](https://beeline.kz) website, focusi
 - **Video Recordings**: Selenoid to capture test execution videos
 
 <p align="left">
-<img align="center" src="src/test/resources/jenkins.svg" width="40" height="40"/>
-<img align="center" src="src/test/resources/junit-original-wordmark.svg" width="40" height="40"/>
-<img align="center" src="src/test/resources/intellij-original.svg" width="40" height="40"/>
 <img align="center" src="src/test/resources/java-original-wordmark.svg" width="40" height="40"/>
+<img align="center" src="src/test/resources/selenide-logo-big.png" width="40" height="40"/>
+<img align="center" src="src/test/resources/intellij-original.svg" width="40" height="40"/>
 <img align="center" src="src/test/resources/gradle-original-wordmark.svg" width="40" height="40"/>
+<img align="center" src="src/test/resources/junit-original-wordmark.svg" width="40" height="40"/>
+<img align="center" src="src/test/resources/Allure Report icon.png" width="80" height="50"/>
+<img align="center" src="src/test/resources/jenkins.svg" width="40" height="40"/>
+<img align="center" src="src/test/resources/Telegram_logo.svg.webp" width="40" height="40"/>
 <img align="center" src="src/test/resources/github-original-wordmark.svg" width="40" height="40"/>
+<img align="center" src="src/test/resources/selenoid icon.svg" width="40" height="40"/>
 </p>
----
-
-
 
 ---
 
