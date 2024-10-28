@@ -2,7 +2,7 @@
   "base": {
     "project": "Anuar Zhangeldi Beeline KZ QA Automation",
     "environment": "DEV",
-    "comment": "Running 5 scenarios for Main and People pages",
+    "comment": "Running 5 scenarios from Main Page for QA Automation position",
     "reportLink": "",
     "language": "en",
     "messenger": "telegram",
@@ -10,8 +10,8 @@
     "enableChart": true
   },
   "telegram": {
-    "token": "8035823722:AAE-6IEagUy3Wh_3dGXGDsJ5UmzvMrrHupI",
-    "chat": "-1002279621856",
+    "token": "7221628358:AAGwT9MUp-ImTnHYukjj3bZCsaxdfSeY8Tc",
+    "chat": "-1002442147111",
     "replyTo": ""
   }
 }
