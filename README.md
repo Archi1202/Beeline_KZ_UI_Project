@@ -1,6 +1,14 @@
-# Beeline Kazakhstan - QA Automation engineer 
+# Beeline Kazakhstan - QA Automation engineer <img align="center" src="src/test/resources/BeelinePeopleLogo.png" width="50" height="50"/>
 
 Automated tests for the [Beeline Kazakhstan](https://beeline.kz) website, focusing on navigation, element visibility, and redirection to the **Вакансии и карьера в Beeline**, where QA positions are displayed.
+
+**Beeline Main Page**
+
+<img align="center" src="src/test/resources/BeelineKZPage.png" width="650" height="350"/>
+
+**Beeline People Page**
+
+<img align="center" src="src/test/resources/Beeline People page.png" width="650" height="350"/>
 
 ## Features
 
@@ -56,12 +64,13 @@ To view Allure reports:
 2. Generate the Allure report: `allure serve target/allure-results`
 
 **Example of Allure Report:**
-<img align="center" src="src/test/resources/Allure Report view.png" width="500" height="400"/>
+
+<img align="center" src="src/test/resources/Allure Report view.png" width="600" height="250"/>
 
 
 **Example of Test Case Steps from Allure Report (#5):**
 
-<img align="center" src="src/test/resources/Steps of 5th test case.png" width="500" height="400"/>
+<img align="center" src="src/test/resources/Steps of 5th test case.png" width="400" height="300"/>
 
 ---
 
@@ -75,6 +84,7 @@ Real-time notifications are set up via a Telegram bot, alerting the team on test
 **Telegram Notification for Beeline KZ**  
 
 <img align="center" src="src/test/resources/Telegram Notification BeelineKZ.png" width="500" height="400"/>
+
 ---
 
 ## Test Execution Video from Selenoid
@@ -87,6 +97,5 @@ Selenoid is used for cross-browser testing and video recording, enabling real-ti
 **Example Test Execution Video:**
 
 https://github.com/user-attachments/assets/01435b3b-6273-4222-bdfe-4ede61402566
-
 
 ---
