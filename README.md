@@ -13,7 +13,9 @@ Automated tests for the [Beeline Kazakhstan](https://beeline.kz) website, focusi
 - **Video Recordings**: Selenoid to capture test execution videos
 
 <p align="left">
-<img align="center" src="resources/pixeled Jenkins configures.png" width="40" height="40">
+<img align="center" src="resources/pixeled Jenkins configures.png" width="40" height="40"/>
+<img align="center" src="resources/gradle-original-wordmark.svg" width="40" height="40"/>
+<img align="center" src="resources/intellij-original.svg" width="40" height="40"/>
 
 
 </p>
