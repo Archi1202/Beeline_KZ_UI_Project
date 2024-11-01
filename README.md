@@ -45,13 +45,15 @@ Automated tests for the [Beeline Kazakhstan](https://beeline.kz) website, focusi
 
 ## Test Cases
 
-| ID   | Test Case Description                                             | Expected Result                                                                                                                      |
-|------|-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| TC01 | **Verify that 'WhatsUp' and 'Telegram' displays on Main page"**   | Support buttons visible for user on the [Beeline Main Page](https://beeline.kz).                                                     |
-| TC02 | **Language and Location verification on the Main Page**           | Verify that user is able to change the Language to RU and Location to Astana.                                                      |                                                                   |                                                                                                                                      |
-| TC03 | **'Вакансии и карьера в Beeline' displays on the main page**      | Ensures the "Вакансии и карьера в Beeline" link exists in the specified footer section.<br/>The hyperlink is visible and accessible. |
-| TC04 | **Beeline People Page accessible from Main Page**                 | Check that user is able scroll down to the positions section and open [Beeline People Page](https://people.beeline.kz).              |
-| TC05 | **Search QA Automation Engineer Position in Beeline People Page** | Ensures that Beeline People can be opened from Main Page, search for QA Automation engineer and able to open details of position.    |
+| ID   | Test Case Description                                                                    | Expected Result                                                                                                                      |
+|------|------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| TC01 | **Verify that 'WhatsUp' and 'Telegram' displays on Main page"**                          | Support buttons visible for user on the [Beeline Main Page](https://beeline.kz).                                                     |
+| TC02 | **Location verification on the Main Page**                                               | Verify that user is able to change Location to Astana.                                                                               |                                                                   |                                                                                                                                      |
+| TC03 | **'Вакансии и карьера в Beeline' displays on the main page**                             | Ensures the "Вакансии и карьера в Beeline" link exists in the specified footer section.<br/>The hyperlink is visible and accessible. |
+| TC04 | **Beeline People Page accessible**                                                       | Check that user is able open [Beeline People Page](https://people.beeline.kz).                                                       |
+| TC05 | **Search QA Automation Engineer Position in Beeline People Page**                        | Ensures that user from Beeline People can search for QA Automation engineer position and able to open details of the job.            |
+| TC06 | **Verify job search via quick filters in IT and BIG Data section**                       |    Check that user can open IT and BIG Data section and select filter 'IT' to see all relevant open positions                                                                                                                                  |
+| TC07 | **Verify job search all positions button and drop down filters (Remote format of work)** |      Check that user can open job list via 'All Positions' button and apply drop down filter 'Удаленный формат'                                                                                                                                                                                                                                          |
 
 ---
 
@@ -76,7 +78,7 @@ To view Allure reports:
 
 ## Telegram Notifications
 
-Notifications are set up via a Telegram bot, alerting the team on test completion and results:
+Notifications are set up via a relevant Telegram bot specified on Beeline KZ, alerting the team on test completion and results:
 - Pass/Fail status
 - Summary of tests executed, including failed tests
 - Quick links to detailed reports
@@ -95,7 +97,5 @@ Selenoid is used for cross-browser testing and video recording, enabling real-ti
 2. Videos are stored and can be accessed in Jenkins or a specified server path.
 
 **Example Test Execution Video:**
-
-https://github.com/user-attachments/assets/01435b3b-6273-4222-bdfe-4ede61402566
 
 ---

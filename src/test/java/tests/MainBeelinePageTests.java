@@ -51,7 +51,7 @@ public class MainBeelinePageTests extends TestBase {
     @Tag("Beeline")
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
-    @DisplayName("Check that user is able to change the Language to RU and Location to Astana")
+    @DisplayName("Check that user is able to change Location to Astana")
     void changeLocationTest() {
         step("open Beeline KZ page", () -> {
             mainPage.openPage();

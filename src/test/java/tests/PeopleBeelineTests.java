@@ -92,7 +92,7 @@ public class PeopleBeelineTests extends TestBase{
     @Tag("Beeline")
     @Severity(SeverityLevel.NORMAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
-    @DisplayName("Check that user can open IT and BIG Data section and select filter 'IT' to see all relevant open positions")
+    @DisplayName("Check that user can open job list via 'All Positions' button and apply drop down filter 'Удаленный формат'")
     void verifyAllPositionsRemoteFilterTest(){
 
 
