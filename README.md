@@ -76,7 +76,7 @@ To view Allure reports:
 
 ## Telegram Notifications
 
-Real-time notifications are set up via a Telegram bot, alerting the team on test completion and results:
+Notifications are set up via a Telegram bot, alerting the team on test completion and results:
 - Pass/Fail status
 - Summary of tests executed, including failed tests
 - Quick links to detailed reports

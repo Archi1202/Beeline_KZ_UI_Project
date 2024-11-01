@@ -22,7 +22,6 @@ public class TestBase {
 
     @BeforeAll
     static void setUp(){
-        Configuration.baseUrl = "https://beeline.kz/";
         Configuration.pageLoadStrategy = "eager";
         Configuration.remote = "https://" + System.getProperty("login") + "@" + System.getProperty("remote");
         Configuration.timeout = 10000;

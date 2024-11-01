@@ -62,12 +62,6 @@ public class MainPage {
         return this;
     }
 
-    public MainPage navigateToPositionDetails(String positionTitle){
-        $("div.list-item_hr .job-title")
-                .shouldHave(text(positionTitle));
-        $("div.list-item_hr .job-title").click();
-        return this;
-    }
     public MainPage checkPositionName(String positionName){
         $(".H-title-for-pages-hr span")
                 .shouldHave(text(positionName));
