@@ -72,7 +72,7 @@ To view Allure reports:
 
 **Example of Test Case Steps from Allure Report:**
 
-<img align="center" src="src/test/resources/Allure_steps.png" width="400" height="300"/>
+<img align="center" src="src/test/resources/Allure_steps.png" width="500" height="350"/>
 
 ---
 
@@ -97,5 +97,9 @@ Selenoid is used for cross-browser testing and video recording, enabling real-ti
 2. Videos are stored and can be accessed in Jenkins or a specified server path.
 
 **Example Test Execution Video:**
+
+https://github.com/user-attachments/assets/f155d712-e7cf-406c-b461-cd61373c3628
+
+
 
 ---
