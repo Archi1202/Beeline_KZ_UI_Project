@@ -25,8 +25,7 @@ public class TestBase {
         }
         Configuration.timeout = 10000;
         Configuration.browser = System.getProperty("browserName","chrome");
-        //Configuration.browserSize = System.getProperty("browserSize");
-        Configuration.browserSize = "1280x720";
+        Configuration.browserSize = System.getProperty("browserSize");
         Configuration.browserVersion = System.getProperty("browserVersion");
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
