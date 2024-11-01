@@ -67,12 +67,12 @@ To view Allure reports:
 
 **Example of Allure Report:**
 
-<img align="center" src="src/test/resources/Allure Report view.png" width="600" height="250"/>
+<img align="center" src="src/test/resources/Allure_Summary.png.png" width="600" height="250"/>
 
 
-**Example of Test Case Steps from Allure Report (#5):**
+**Example of Test Case Steps from Allure Report:**
 
-<img align="center" src="src/test/resources/Steps of 5th test case.png" width="400" height="300"/>
+<img align="center" src="src/test/resources/Allure_steps.png.png" width="400" height="300"/>
 
 ---
 
@@ -85,7 +85,7 @@ Notifications are set up via a relevant Telegram bot specified on Beeline KZ, al
 
 **Telegram Notification for Beeline KZ**  
 
-<img align="center" src="src/test/resources/Telegram Notification BeelineKZ.png" width="500" height="400"/>
+<img align="center" src="src/test/resources/Telegram_Notifications.png" width="500" height="400"/>
 
 ---
 
@@ -98,4 +98,5 @@ Selenoid is used for cross-browser testing and video recording, enabling real-ti
 
 **Example Test Execution Video:**
 
+[AllPositionsRemoteFilterTest.mp4](src%2Ftest%2Fresources%2FAllPositionsRemoteFilterTest.mp4)
 ---
