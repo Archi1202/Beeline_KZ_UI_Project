@@ -67,7 +67,7 @@ To view Allure reports:
 
 **Example of Allure Report:**
 
-<img align="center" src="src/test/resources/Allure_Summary.png" width="600" height="250"/>
+<img align="center" src="src/test/resources/Allure_Summary.png" width="600" height="350"/>
 
 
 **Example of Test Case Steps from Allure Report:**
