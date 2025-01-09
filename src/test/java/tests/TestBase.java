@@ -6,17 +6,12 @@ import helpers.Attach;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import pages.MainPage;
 
 import java.util.Map;
 
 public class TestBase {
-
-    private final MainPage mainPage = new MainPage();
-
-
     @BeforeAll
-    static void setUp(){
+    static void setUp() {
         Configuration.pageLoadStrategy = "eager";
         if (System.getProperty("remote") != null) {
             Configuration.remote = "https://" + System.getProperty("login") + "@" + System.getProperty("remote");
@@ -24,7 +19,7 @@ public class TestBase {
             Configuration.remote = null;
         }
         Configuration.timeout = 10000;
-        Configuration.browser = System.getProperty("browserName","chrome");
+        Configuration.browser = System.getProperty("browserName", "chrome");
         Configuration.browserSize = System.getProperty("browserSize");
         Configuration.browserVersion = System.getProperty("browserVersion");
 
