@@ -2,7 +2,7 @@
   "base": {
     "project": "Anuar Zhangeldi Beeline KZ QA Automation",
     "environment": "DEV",
-    "comment": "Running 5 scenarios from Main Page for QA Automation position",
+    "comment": "Running scenarios for QA Automation position in Beeline KZ",
     "reportLink": "",
     "language": "en",
     "messenger": "telegram",
