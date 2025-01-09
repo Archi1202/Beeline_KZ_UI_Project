@@ -63,8 +63,14 @@ tasks.withType(Test) {
 }
 
 
-task beeline_test(type: Test) {
+task beeline_main(type: Test) {
     useJUnitPlatform{
-        includeTags("Beeline")
+        includeTags("Beeline_Main_Page")
+    }
+}
+
+task beeline_people(type: Test) {
+    useJUnitPlatform{
+        includeTags("Beeline_People_Page")
     }
 }

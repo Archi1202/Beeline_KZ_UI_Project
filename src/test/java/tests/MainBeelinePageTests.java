@@ -30,7 +30,7 @@ public class MainBeelinePageTests extends TestBase {
 
 
     @Test
-    @Tag("Beeline")
+    @Tag("Beeline_Main_Page")
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
     @DisplayName("Check that Main Page has Social Media Support buttons 'WhatsUp' and 'Telegram' on the bottom section")
@@ -48,7 +48,7 @@ public class MainBeelinePageTests extends TestBase {
     }
 
     @Test
-    @Tag("Beeline")
+    @Tag("Beeline_Main_Page")
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
     @DisplayName("Check that user is able to change Location to Astana")
@@ -65,7 +65,7 @@ public class MainBeelinePageTests extends TestBase {
     }
 
     @Test
-    @Tag("Beeline")
+    @Tag("Beeline_Main_Page")
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
     @DisplayName("Check there is a 'Вакансии и карьера в Beeline' on the Main Beeline Page")

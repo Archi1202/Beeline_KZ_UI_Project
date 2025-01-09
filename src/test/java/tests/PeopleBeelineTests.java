@@ -27,7 +27,7 @@ public class PeopleBeelineTests extends TestBase {
     PeoplePage peoplePage = new PeoplePage();
 
     @Test
-    @Tag("Beeline")
+    @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
     @DisplayName("Check that user is able open Beeline People Page")
@@ -42,7 +42,7 @@ public class PeopleBeelineTests extends TestBase {
     }
 
     @Test
-    @Tag("Beeline")
+    @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
     @DisplayName("Check that user opens People Page from and search for QA Automation engineer")
@@ -67,7 +67,7 @@ public class PeopleBeelineTests extends TestBase {
     }
 
     @Test
-    @Tag("Beeline")
+    @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.NORMAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
     @DisplayName("Check that user can open IT and BIG Data section and select filter 'IT' to see all relevant open positions")
@@ -89,7 +89,7 @@ public class PeopleBeelineTests extends TestBase {
     }
 
     @Test
-    @Tag("Beeline")
+    @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.NORMAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
     @DisplayName("Check that user can open job list via 'All Positions' button and apply drop down filter 'Удаленный формат'")
