@@ -1,6 +1,7 @@
-# Beeline Kazakhstan - QA Automation engineer <img align="center" src="src/test/resources/BeelinePeopleLogo.png" width="50" height="50"/>
+# Beeline Kazakhstan - UI Project for QA.GURU <img align="center" src="src/test/resources/BeelinePeopleLogo.png" width="50" height="50"/>
 
-Automated tests for the [Beeline Kazakhstan](https://beeline.kz) website, focusing on navigation, element visibility, and redirection to the **Вакансии и карьера в Beeline**, where QA positions are displayed.
+Automated tests for the [Beeline Kazakhstan](https://beeline.kz) website, focusing on navigation, elements visibility, 
+**Вакансии и карьера в Beeline**, where QA positions are displayed.
 
 **Beeline Main Page**
 
