@@ -5,24 +5,23 @@ import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
 public class PeoplePage {
 
-    private final SelenideElement
+    private SelenideElement
             searchPositionInput = $("input.main-search-page"),
             searchPositionButton = $(".btn-search-main"),
             titleInput = $("div[data-container] span"),
             jobTitleInput = $("div.list-item_hr .job-title"),
             jobTitleDetailInput = $(".H-title-for-pages-hr span"),
             itAndBigDataLink = $("[data-link][href='/ITBigData']"),
-            itOptionLocator = $(".tags-hr-button-itbigdata.item4"),
+            internshipLink = $("[data-link][href='/Students']"),
+            beginnersLink = $("[data-link][href='/Beginners']"),
             allPositionsButton = $("button.btn-blocks-hr[data-button]");
 
 
-    private final ElementsCollection jobItems = $$("[data-container].list-item_hr"),
-            dropdownLocator = $$("div.dropdown-container");
+    private ElementsCollection dropdownLocator = $$("div.dropdown-container");
 
 
     public PeoplePage openPeoplePage() {
@@ -45,6 +44,16 @@ public class PeoplePage {
         return this;
     }
 
+    public PeoplePage navigateToInternshipPage() {
+        internshipLink.click();
+        return this;
+    }
+
+    public PeoplePage navigateToBeginnersPage() {
+        beginnersLink.click();
+        return this;
+    }
+
     public PeoplePage searchPosition(String position) {
         searchPositionInput.setValue(position);
         searchPositionButton.click();
@@ -58,17 +67,6 @@ public class PeoplePage {
 
     public PeoplePage navigateToITAndBigDataSection() {
         itAndBigDataLink.click();
-        return this;
-    }
-
-    public PeoplePage selectItOption() {
-        itOptionLocator.click();
-        return this;
-    }
-
-    public PeoplePage checkFilterInJobList(String filterName) {
-        jobItems.findBy(text(filterName))
-                .shouldBe(visible);
         return this;
     }
 

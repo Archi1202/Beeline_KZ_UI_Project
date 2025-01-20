@@ -8,6 +8,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import pages.ItAndBigDataPage;
 import pages.PeoplePage;
 
 import static io.qameta.allure.Allure.step;
@@ -25,6 +26,8 @@ public class PeopleBeelineTests extends TestBase {
     }
 
     PeoplePage peoplePage = new PeoplePage();
+
+    ItAndBigDataPage itAndBigDataPage = new ItAndBigDataPage();
 
     @Test
     @Tag("Beeline_People_Page")
@@ -81,10 +84,10 @@ public class PeopleBeelineTests extends TestBase {
             peoplePage.navigateToITAndBigDataSection();
         });
         step("Select option IT from the available search filters", () -> {
-            peoplePage.selectItOption();
+            itAndBigDataPage.selectItOption();
         });
         step("Get the list of job items and assert that at least one contains the label 'IT'", () -> {
-            peoplePage.checkFilterInJobList("IT");
+            itAndBigDataPage.checkFilterInJobList("IT");
         });
     }
 
@@ -106,7 +109,7 @@ public class PeopleBeelineTests extends TestBase {
             peoplePage.selectDropdownOptionByName("Формат работы", "Удаленный формат");
         });
         step("Get the list of job items and assert that all positions contains the label 'Удаленный формат'", () -> {
-            peoplePage.checkFilterInJobList("Удаленный формат");
+            itAndBigDataPage.checkFilterInJobList("Удаленный формат");
         });
     }
 
