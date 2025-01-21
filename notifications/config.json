@@ -2,11 +2,11 @@
   "base": {
     "project": "Anuar Zhangeldi Beeline KZ QA Automation",
     "environment": "DEV",
-    "comment": "Running scenarios for QA Automation position in Beeline KZ",
+    "comment": "UI Project Beeline KZ with different scenarios",
     "reportLink": "",
     "language": "en",
     "messenger": "telegram",
-    "allureFolder": "https://jenkins.autotests.cloud/job/hw14_BeelineKZ_QA_Automation_Position/ws/allure-report/",
+    "allureFolder": "https://jenkins.autotests.cloud/job/Beeline_KZ_UI_Project/ws/allure-report/",
     "enableChart": true
   },
   "telegram": {
