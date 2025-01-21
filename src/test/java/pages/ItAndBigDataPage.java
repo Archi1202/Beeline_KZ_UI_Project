@@ -1,8 +1,8 @@
 package pages;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
@@ -15,26 +15,15 @@ public class ItAndBigDataPage {
 
     ElementsCollection jobItems = $$("[data-container].list-item_hr");
 
-
-
+    @Step("Select option 'IT' from the available search filters")
     public ItAndBigDataPage selectItOption() {
         itOptionLocator.click();
         return this;
     }
-
+    @Step("Get the list of job items and assert that at least one contains the label {filterName}")
     public ItAndBigDataPage checkFilterInJobList(String filterName) {
         jobItems.findBy(text(filterName))
                 .shouldBe(visible);
-        return this;
-    }
-
-    public ItAndBigDataPage selectDropdownOptionAndValue(String option, String value) {
-        SelenideElement
-                targetDropdown =
-                $$("div.dropdown-container").findBy(Condition.text(option))
-                .$("select.dropdown-display");
-        targetDropdown.click();
-        targetDropdown.selectOption(value);
         return this;
     }
 }
