@@ -6,9 +6,9 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.util.Map;
 
 public class WebDriverProvider {
-    private final WebConfig config;
+    private final WebDriverConfig config;
 
-    public WebDriverProvider(WebConfig config){
+    public WebDriverProvider(WebDriverConfig config){
         this.config = config;
     }
 

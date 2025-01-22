@@ -2,11 +2,10 @@ package configs;
 
 import org.aeonbits.owner.Config;
 
-@Config.LoadPolicy(Config.LoadType.MERGE)
-@Config.Sources({
-        "classpath:${env}.properties"
-})
-public interface WebConfig extends Config{
+@Config.LoadPolicy(Config.LoadType.FIRST)
+@Config.Sources({"classpath:properties/${env}.properties", "classpath:properties/local.properties"})
+
+public interface WebDriverConfig extends Config{
     @Key("baseUrl")
     @DefaultValue("https://beeline.kz/ru")
     String getBaseUrl();

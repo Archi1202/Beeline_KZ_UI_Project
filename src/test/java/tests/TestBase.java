@@ -2,7 +2,7 @@ package tests;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
-import configs.WebConfig;
+import configs.WebDriverConfig;
 import configs.WebDriverProvider;
 import helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -13,11 +13,11 @@ import org.junit.jupiter.api.BeforeEach;
 
 public class TestBase {
 
-    private static WebConfig config;
+    private static WebDriverConfig config;
 
     @BeforeAll
     static void setUp() {
-        config = ConfigFactory.create(WebConfig.class, System.getProperties());
+        config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
         WebDriverProvider webConfig = new WebDriverProvider(config);
         webConfig.setUp();
     }
