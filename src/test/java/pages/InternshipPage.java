@@ -62,7 +62,7 @@ public class InternshipPage {
 
     @Step("Verify that bottom section has relevant text {expectedText}")
     public InternshipPage verifyBottomQuestionText(String expectedText) {
-        bottomHeaderQuestionsLocator
+        bottomHeaderQuestionsLocator.scrollTo()
                 .shouldHave(text(expectedText))
                 .shouldBe(visible);
         return this;

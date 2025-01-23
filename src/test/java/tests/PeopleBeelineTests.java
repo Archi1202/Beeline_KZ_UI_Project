@@ -136,8 +136,8 @@ public class PeopleBeelineTests extends TestBase {
     @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.NORMAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
-    @DisplayName("Check the section 'Ответы на частые вопросы' in Internship section")
-    void verifyIntershipPageQuestionSupportTest() {
+    @DisplayName("Check the section 'Остались вопросы?' in Internship page")
+    void verifyInternshipPageQuestionSupportTest() {
         peoplePage.openPeoplePage()
                 .navigateToInternshipPage();
         internshipPage.verifyBottomQuestionText("Остались вопросы?")
