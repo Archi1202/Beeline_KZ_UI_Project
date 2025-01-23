@@ -29,12 +29,11 @@ public class TestBase {
 
     @AfterEach
     protected void tearDown() {
-        if (System.getProperty("remote") != null) {
-            Attach.screenshotAs("Last Screenshot");
-            Attach.pageSource();
-            Attach.browserConsoleLogs();
-            Attach.addVideo();
-        }
+
+        Attach.screenshotAs("Last Screenshot");
+        Attach.pageSource();
+        Attach.browserConsoleLogs();
+        Attach.addVideo();
         Selenide.closeWebDriver();
     }
 }
