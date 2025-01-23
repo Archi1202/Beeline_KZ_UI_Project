@@ -1,6 +1,7 @@
 package configs;
 
 import com.codeborne.selenide.Configuration;
+import configs.web.WebDriverConfig;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Map;

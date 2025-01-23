@@ -1,4 +1,4 @@
-package configs;
+package configs.web;
 
 import org.aeonbits.owner.Config;
 
@@ -7,7 +7,6 @@ import org.aeonbits.owner.Config;
 
 public interface WebDriverConfig extends Config{
     @Key("baseUrl")
-    @DefaultValue("https://beeline.kz/ru")
     String getBaseUrl();
 
     @Key("browser")

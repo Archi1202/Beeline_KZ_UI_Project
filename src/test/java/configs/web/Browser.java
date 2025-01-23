@@ -1,4 +1,4 @@
-package configs;
+package configs.web;
 
 public enum Browser {
     CHROME,
