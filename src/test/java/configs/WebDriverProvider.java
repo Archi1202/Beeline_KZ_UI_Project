@@ -20,7 +20,7 @@ public class WebDriverProvider {
         Configuration.pageLoadStrategy = "eager";
 
         if (config.isRemote()) {
-            Configuration.remote = config.getRemoteUrl();
+            Configuration.remote = config.getRemoteUrl().toString();
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("selenoid:options", Map.of(
