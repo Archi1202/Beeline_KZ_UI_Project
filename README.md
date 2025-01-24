@@ -63,6 +63,16 @@ Automated tests for the [Beeline Kazakhstan](https://beeline.kz) website, focusi
 
 ---
 
+## Jenkins Project
+
+
+
+
+**Parametrized settings to Launch the Build:**
+
+
+
+
 ## Allure Reports
 
 Allure Reports provide clear insights into test results, including success/failure rates, test durations, and individual test steps. The report is generated after each test run and is accessible via Jenkins or as a standalone HTML report.
