@@ -34,7 +34,7 @@ public class PeopleBeelineTests extends TestBase {
     @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
-    @DisplayName("Check that user is able open Beeline People Page")
+    @DisplayName("Verify accessibility of the Beeline People page")
     void openPeoplePageTest() {
 
         peoplePage.openPeoplePage()
@@ -45,7 +45,7 @@ public class PeopleBeelineTests extends TestBase {
     @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
-    @DisplayName("Check that user opens People Page from and search for QA Automation engineer")
+    @DisplayName("Search for QA Automation Engineer position on Beeline People page")
     void searchQAPositionTest() {
 
         peoplePage.openPeoplePage()
@@ -59,7 +59,7 @@ public class PeopleBeelineTests extends TestBase {
     @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.NORMAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
-    @DisplayName("Check that user can open IT and BIG Data section and select filter 'IT' to see all relevant open positions")
+    @DisplayName("Validate job search using quick filters in the IT and Big Data section")
     void checkItAndBigDataSectionTest() {
 
         peoplePage.openPeoplePage()
@@ -72,7 +72,7 @@ public class PeopleBeelineTests extends TestBase {
     @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.NORMAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
-    @DisplayName("Check that user can open job list via 'All Positions' button and apply drop down filter 'Удаленный формат'")
+    @DisplayName("Test job search functionality with 'All Positions' button and filter options (Remote work format)")
     void verifyAllPositionsRemoteFilterTest() {
         peoplePage.openPeoplePage()
                 .navigateToAllPositionsButton()
@@ -84,7 +84,7 @@ public class PeopleBeelineTests extends TestBase {
     @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.NORMAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
-    @DisplayName("Check that Internship page can be opened and user is able to see list of open positions")
+    @DisplayName("Check that the Internship page displays available positions")
     void verifyInternshipPageTest() {
         peoplePage.openPeoplePage()
                 .navigateToInternshipPage();
@@ -96,7 +96,7 @@ public class PeopleBeelineTests extends TestBase {
     @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.NORMAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
-    @DisplayName("Check that Filters Уровень available for user in IT and BIG Data section")
+    @DisplayName("Validate 'Уровень' filter functionality in the IT and Big Data section")
     void verifyFilterLevelTest() {
         peoplePage.openPeoplePage()
                 .navigateToITAndBigDataSection();
@@ -108,7 +108,7 @@ public class PeopleBeelineTests extends TestBase {
     @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.NORMAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
-    @DisplayName("Check the 'Начинающим' page visible for user and details for specific position can be opened")
+    @DisplayName("Ensure the visibility of the Начинающим page and access to specific career fields")
     void verifyBeginnersPageTest() {
         peoplePage.openPeoplePage()
                 .navigateToBeginnersPage();
@@ -122,7 +122,7 @@ public class PeopleBeelineTests extends TestBase {
     @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.NORMAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
-    @DisplayName("Check the section 'Ответы на частые вопросы' in Internship section")
+    @DisplayName("Verify visibility of the FAQ section on the Internship page")
     void verifyInternshipPageBottomQuestionListTest() {
         peoplePage.openPeoplePage()
                 .navigateToInternshipPage();
@@ -136,7 +136,7 @@ public class PeopleBeelineTests extends TestBase {
     @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.NORMAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
-    @DisplayName("Check the section 'Остались вопросы?' in Internship page")
+    @DisplayName("Ensure the 'Остались вопросы?' section is displayed at the bottom of the page")
     void verifyInternshipPageQuestionSupportTest() {
         peoplePage.openPeoplePage()
                 .navigateToInternshipPage();

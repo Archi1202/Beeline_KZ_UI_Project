@@ -30,7 +30,7 @@ public class MainBeelinePageTests extends TestBase {
     @Tag("Beeline_Main_Page")
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
-    @DisplayName("Check that Main page has social media buttons 'WhatsUp' and 'Telegram' on the bottom section")
+    @DisplayName("Confirm 'WhatsUp' and 'Telegram' buttons appear on the main page")
     void checkBottomLineInfoTest() {
             mainPage.openPage();
             mainPage.checkWhatsUpButton();
@@ -41,7 +41,7 @@ public class MainBeelinePageTests extends TestBase {
     @Tag("Beeline_Main_Page")
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
-    @DisplayName("Check that user is able to change location to Astana")
+    @DisplayName("Validate location selection functionality on the main page")
     void changeLocationTest() {
             mainPage.openPage();
             mainPage.setCity("Астана");
@@ -52,7 +52,7 @@ public class MainBeelinePageTests extends TestBase {
     @Tag("Beeline_Main_Page")
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
-    @DisplayName("Check there is a 'Вакансии и карьера в Beeline' on the Main Beeline Page")
+    @DisplayName("Ensure 'Вакансии и карьера в Beeline' link is present in the footer")
     void checkPeopleCareerNavigationTest() {
             mainPage.openPage();
             mainPage.checkCareerSection();
