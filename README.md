@@ -73,15 +73,33 @@ To view Allure reports:
 
 **Example of Allure Report:**
 
-<img align="center" src="src/test/resources/images/icons/Allure_Summary.png" width="600" height="350"/>
+<img align="center" src="src/test/resources/images/screens/Allure_summary_report.png" width="600" height="350"/>
+
+
+**Allure Report Graphs:**
+
+<img align="center" src="src/test/resources/images/screens/Allure_graphs.png" width="600" height="350"/>
 
 
 **Example of Test Case Steps from Allure Report:**
 
-<img align="center" src="src/test/resources/images/icons/Allure_steps.png" width="500" height="350"/>
+<img align="center" src="src/test/resources/images/screens/Allure_test_cases.png" width="500" height="350"/>
 
 ---
+**Allure TestOps Integration:**
 
+<img align="center" src="src/test/resources/images/screens/TestOps_dashboard.png" width="500" height="350"/>
+
+**Allure TestOps Launches Page:**
+
+<img align="center" src="src/test/resources/images/screens/TestOps_launches.png" width="500" height="350"/>
+
+
+**Allure TestOps Test cases page:**
+
+<img align="center" src="src/test/resources/images/screens/TestOps_test_cases.png" width="500" height="350"/>
+
+---
 ## Telegram Notifications
 
 Notifications are set up via a relevant Telegram bot specified on Beeline KZ, alerting the team on test completion and results:
