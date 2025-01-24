@@ -108,7 +108,7 @@ public class PeopleBeelineTests extends TestBase {
     @Tag("Beeline_People_Page")
     @Severity(SeverityLevel.NORMAL)
     @Link(value = "Beeline People page", url = "https://people.beeline.kz")
-    @DisplayName("Ensure the visibility of the Начинающим page and access to specific career fields")
+    @DisplayName("Ensure the visibility of the 'Начинающим' page and access to specific career fields")
     void verifyBeginnersPageTest() {
         peoplePage.openPeoplePage()
                 .navigateToBeginnersPage();
