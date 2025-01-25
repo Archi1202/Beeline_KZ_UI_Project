@@ -102,15 +102,21 @@ Jenkins is seamlessly integrated into this project to enable Continuous Integrat
 
 ---
 
-# Command to launch 
-Remote launch using Jenkins and Selenoid (requires login and password):
+## Command to Launch Tests
 
-./gradlew clean test -Denv=remote
+### Remote Launch (using Jenkins and Selenoid)
+Requires authentication (login and password). Use the following command:
 
-Local launch of tests
+```bash
+gradle clean test -Denv=remote
+```
 
+### Local Launch
+To execute tests locally, use:
+
+```bash
 gradle clean test
-
+```
 
 ## Test Parameters Overview
 
@@ -129,7 +135,7 @@ flowchart LR
 Allure Reports provide a comprehensive overview of test execution results, including detailed logs, graphs, and individual test steps. This project uses Allure to ensure full traceability and transparency in test outcomes.
 
 To view Allure reports:
-1. Execute tests to generate the report: `mvn clean beeline_test`
+1. Execute tests to generate the report: `mvn clean test`
 2. Generate the Allure report: `allure serve target/allure-results`
 
 **Example of Allure Report Overview:**
