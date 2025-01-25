@@ -172,7 +172,7 @@ Notifications include:
 
 ## Test Execution Video from Selenoid
 
-Selenoid is utilized for cross-browser testing and video recording. 
+Selenoid is utilized for cross-browser testing and video recording.
 It records every test execution, aiding in debugging and providing a visual representation of test steps.
 
 1. Videos are accessible via Jenkins or a specified server path.
