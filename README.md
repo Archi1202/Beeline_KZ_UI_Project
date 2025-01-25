@@ -1,4 +1,4 @@
-# Beeline Kazakhstan - UI Project for QA.GURU <img align="center" src="resources/images/icons/BeelinePeopleLogo.png" width="50" height="50"/>
+# Beeline Kazakhstan - UI Project for QA.GURU <img align="center" src="src/test/resources/images/icons/BeelinePeopleLogo.png" width="50" height="50"/>
 
 Automated tests for the [Beeline Kazakhstan](https://beeline.kz) website, focusing on navigation, elements visibility, 
 **Вакансии и карьера в Beeline**.
@@ -65,12 +65,23 @@ Automated tests for the [Beeline Kazakhstan](https://beeline.kz) website, focusi
 
 ## Jenkins Project
 
+<img align="center" src="src/test/resources/images/screens/Jenkins_status.png" width="650" height="350"/>
 
 
 
-**Parametrized settings to Launch the Build:**
+**Parameters to launch the Build:**
 
+| Parameter             | Description                                                           |
+|-----------------------|-----------------------------------------------------------------------|
+| **BROWSER_NAME**      | The browser used to launch the build.                                 |
+| **BROWSER_VERSION**   | The version of the browser used for launching the build.              |                                                                                                                                      |
+| **BROWSER_SIZE**      | The resolution of the browser window.                                 |
+| **REMOTE_URL**        | The URL of the remote server for build execution.                     |
+| **REMOTE_VIDEO_URL**  | The URL of the remote server hosting the video recordings.            |
+| **ENVIRONMENT**       | The environment where the build will be executed.                     |
+| **TASK**              | The task to be selected for running a specific combination of tests.  |
 
+<img align="center" src="src/test/resources/images/screens/Allure_summary_report.png" width="650" height="350"/>
 
 
 ## Allure Reports
@@ -83,31 +94,31 @@ To view Allure reports:
 
 **Example of Allure Report:**
 
-<img align="center" src="src/test/resources/images/screens/Allure_summary_report.png" width="600" height="350"/>
+<img align="center" src="src/test/resources/images/screens/Allure_summary_report.png" width="650" height="350"/>
 
 
 **Allure Report Graphs:**
 
-<img align="center" src="src/test/resources/images/screens/Allure_graphs.png" width="600" height="350"/>
+<img align="center" src="src/test/resources/images/screens/Allure_graphs.png" width="650" height="350"/>
 
 
 **Example of Test Case Steps from Allure Report:**
 
-<img align="center" src="src/test/resources/images/screens/Allure_test_cases.png" width="500" height="350"/>
+<img align="center" src="src/test/resources/images/screens/Allure_test_cases.png" width="650" height="350"/>
 
 ---
 **Allure TestOps Integration:**
 
-<img align="center" src="src/test/resources/images/screens/TestOps_dashboard.png" width="500" height="350"/>
+<img align="center" src="src/test/resources/images/screens/TestOps_dashboard.png" width="650" height="350"/>
 
 **Allure TestOps Launches Page:**
 
-<img align="center" src="src/test/resources/images/screens/TestOps_launches.png" width="500" height="350"/>
+<img align="center" src="src/test/resources/images/screens/TestOps_launches.png" width="650" height="350"/>
 
 
 **Allure TestOps Test cases page:**
 
-<img align="center" src="src/test/resources/images/screens/TestOps_test_cases.png" width="500" height="350"/>
+<img align="center" src="src/test/resources/images/screens/TestOps_test_cases.png" width="650" height="350"/>
 
 ---
 ## Telegram Notifications
@@ -119,7 +130,7 @@ Notifications are set up via a relevant Telegram bot specified on Beeline KZ, al
 
 **Telegram Notification for Beeline KZ**  
 
-<img align="center" src="src/test/resources/images/screens/Telegram_Notifications.png" width="500" height="400"/>
+<img align="center" src="src/test/resources/images/screens/Telegram_UI_Beeline.png" width="600" height="500"/>
 
 ---
 
