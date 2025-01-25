@@ -102,6 +102,16 @@ Jenkins is seamlessly integrated into this project to enable Continuous Integrat
 
 ---
 
+# Command to launch 
+Remote launch using Jenkins and Selenoid (requires login and password):
+
+./gradlew clean test -Denv=remote
+
+Local launch of tests
+
+gradle clean test
+
+
 ## Test Parameters Overview
 
 Below is a visual representation of the test suite and associated parameters:
