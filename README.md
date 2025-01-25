@@ -143,7 +143,8 @@ Selenoid is used for cross-browser testing and video recording, enabling real-ti
 
 **Example Test Execution Video:**
 
-https://github.com/user-attachments/assets/f155d712-e7cf-406c-b461-cd61373c3628
+https://github.com/user-attachments/assets/92193ae6-beb3-4cb5-b5d9-4092e39c6022
+
 
 
 
