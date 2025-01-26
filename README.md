@@ -138,7 +138,7 @@ To view Allure reports:
 1. Execute tests to generate the report: `mvn clean test`
 2. Generate the Allure report: `allure serve target/allure-results`
 
-**Example of Allure Report Overview:**
+**Allure Report Overview:**
 
 <img align="center" src="src/test/resources/images/screens/Allure_summary_report.png" width="650" height="350"/>
 
@@ -146,7 +146,7 @@ To view Allure reports:
 
 <img align="center" src="src/test/resources/images/screens/Allure_graphs.png" width="650" height="350"/>
 
-**Test Steps Example:**
+**Test Steps:**
 
 <img align="center" src="src/test/resources/images/screens/Allure_test_cases.png" width="650" height="350"/>
 
