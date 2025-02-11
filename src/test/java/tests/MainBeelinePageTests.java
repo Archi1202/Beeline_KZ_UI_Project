@@ -32,9 +32,9 @@ public class MainBeelinePageTests extends TestBase {
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
     @DisplayName("Confirm 'WhatsUp' and 'Telegram' buttons appear on the main page")
     void checkBottomLineInfoTest() {
-            mainPage.openPage();
-            mainPage.checkWhatsUpButton();
-            mainPage.checkTelegramButton();
+        mainPage.openPage();
+        mainPage.checkWhatsUpButton();
+        mainPage.checkTelegramButton();
     }
 
     @Test
@@ -43,9 +43,9 @@ public class MainBeelinePageTests extends TestBase {
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
     @DisplayName("Validate location selection functionality on the main page")
     void changeLocationTest() {
-            mainPage.openPage();
-            mainPage.setCity("Астана");
-            mainPage.checkChangedLocation("Астана");
+        mainPage.openPage();
+        mainPage.setCity("Астана");
+        mainPage.checkChangedLocation("Астана");
     }
 
     @Test
@@ -54,9 +54,9 @@ public class MainBeelinePageTests extends TestBase {
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
     @DisplayName("Ensure 'Вакансии и карьера в Beeline' link is present in the footer")
     void checkPeopleCareerNavigationTest() {
-            mainPage.openPage();
-            mainPage.checkCareerSection();
-            mainPage.navigateToCareerPage();
-            peoplePage.checkCareerPage();
+        mainPage.openPage();
+        mainPage.checkCareerSection();
+        mainPage.navigateToCareerPage();
+        peoplePage.checkCareerPage();
     }
 }

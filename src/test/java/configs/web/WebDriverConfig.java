@@ -5,7 +5,7 @@ import org.aeonbits.owner.Config;
 @Config.LoadPolicy(Config.LoadType.FIRST)
 @Config.Sources({"classpath:properties/${env}.properties", "classpath:properties/local.properties"})
 
-public interface WebDriverConfig extends Config{
+public interface WebDriverConfig extends Config {
     @Key("baseUrl")
     String getBaseUrl();
 

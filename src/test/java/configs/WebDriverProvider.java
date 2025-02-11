@@ -9,7 +9,7 @@ import java.util.Map;
 public class WebDriverProvider {
     private final WebDriverConfig config;
 
-    public WebDriverProvider(WebDriverConfig config){
+    public WebDriverProvider(WebDriverConfig config) {
         this.config = config;
     }
 

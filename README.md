@@ -11,11 +11,11 @@ This project aims to ensure high-quality standards for Beeline's online presence
 
 **Beeline Main Page**
 
-<img align="center" src="src/test/resources/images/icons/BeelineKZPage.png" width="650" height="350"/>
+<img align="center" src="media/images/icons/BeelineKZPage.png" width="650" height="350"/>
 
 **Beeline People Page**
 
-<img align="center" src="src/test/resources/images/icons/Beeline People page.png" width="650" height="350"/>
+<img align="center" src="media/images/icons/Beeline People page.png" width="650" height="350"/>
 
 ---
 
@@ -31,16 +31,16 @@ This project leverages cutting-edge automation tools and frameworks to deliver a
 - **Video Recordings**: Selenoid enables video playback of test executions for debugging and analysis.
 
 <p align="left">
-<img align="center" src="src/test/resources/images/icons/java-original-wordmark.svg" width="50" height="50"/> 
-<img align="center" src="src/test/resources/images/icons/selenide-logo-big.png" width="50" height="50"/>
-<img align="center" src="src/test/resources/images/icons/intellij-original.svg" width="50" height="50"/>
-<img align="center" src="src/test/resources/images/icons/gradle-original-wordmark.svg" width="50" height="50"/>
-<img align="center" src="src/test/resources/images/icons/junit-original-wordmark.svg" width="50" height="50"/>
-<img align="center" src="src/test/resources/images/icons/Allure Report icon.png" width="80" height="40"/>
-<img align="center" src="src/test/resources/images/icons/jenkins.svg" width="50" height="50"/>
-<img align="center" src="src/test/resources/images/icons/Telegram_Messenger.png" width="50" height="50"/>
-<img align="center" src="src/test/resources/images/icons/github-original-wordmark.svg" width="50" height="50"/>
-<img align="center" src="src/test/resources/images/icons/selenoid icon.svg" width="50" height="50"/>
+<img align="center" src="media/images/icons/java-original-wordmark.svg" width="50" height="50"/> 
+<img align="center" src="media/images/icons/selenide-logo-big.png" width="50" height="50"/>
+<img align="center" src="media/images/icons/intellij-original.svg" width="50" height="50"/>
+<img align="center" src="media/images/icons/gradle-original-wordmark.svg" width="50" height="50"/>
+<img align="center" src="media/images/icons/junit-original-wordmark.svg" width="50" height="50"/>
+<img align="center" src="media/images/icons/Allure Report icon.png" width="80" height="40"/>
+<img align="center" src="media/images/icons/jenkins.svg" width="50" height="50"/>
+<img align="center" src="media/images/icons/Telegram_Messenger.png" width="50" height="50"/>
+<img align="center" src="media/images/icons/github-original-wordmark.svg" width="50" height="50"/>
+<img align="center" src="media/images/icons/selenoid icon.svg" width="50" height="50"/>
 </p>
 
 ---
@@ -98,7 +98,7 @@ Jenkins is seamlessly integrated into this project to enable Continuous Integrat
 
 **Jenkins Build Status Screenshot:**
 
-<img align="center" src="src/test/resources/images/screens/Jenkins_status.png" width="650" height="350"/>
+<img align="center" src="media/images/screens/Jenkins_status.png" width="650" height="350"/>
 
 ---
 
@@ -140,15 +140,15 @@ To view Allure reports:
 
 **Allure Report Overview:**
 
-<img align="center" src="src/test/resources/images/screens/Allure_summary_report.png" width="650" height="350"/>
+<img align="center" src="media/images/screens/Allure_summary_report.png" width="650" height="350"/>
 
 **Graphical Representation in Allure Reports:**
 
-<img align="center" src="src/test/resources/images/screens/Allure_graphs.png" width="650" height="350"/>
+<img align="center" src="media/images/screens/Allure_graphs.png" width="650" height="350"/>
 
 **Test Steps:**
 
-<img align="center" src="src/test/resources/images/screens/Allure_test_cases.png" width="650" height="350"/>
+<img align="center" src="media/images/screens/Allure_test_cases.png" width="650" height="350"/>
 
 ---
 
@@ -160,15 +160,15 @@ Allure TestOps extends the reporting capabilities by offering advanced analytics
 
 **Dashboard Screenshot:**
 
-<img align="center" src="src/test/resources/images/screens/TestOps_dashboard.png" width="650" height="350"/>
+<img align="center" src="media/images/screens/TestOps_dashboard.png" width="650" height="350"/>
 
 **Launches Overview in TestOps:**
 
-<img align="center" src="src/test/resources/images/screens/TestOps_launches.png" width="650" height="350"/>
+<img align="center" src="media/images/screens/TestOps_launches.png" width="650" height="350"/>
 
 **Test Case Management in TestOps:**
 
-<img align="center" src="src/test/resources/images/screens/TestOps_test_cases.png" width="650" height="350"/>
+<img align="center" src="media/images/screens/TestOps_test_cases.png" width="650" height="350"/>
 
 ---
 
@@ -182,7 +182,7 @@ Notifications include:
 
 **Example Telegram Notification:**
 
-<img align="center" src="src/test/resources/images/screens/Telegram_UI_Beeline.png" width="600" height="500"/>
+<img align="center" src="media/images/screens/Telegram_UI_Beeline.png" width="600" height="500"/>
 
 ---
 

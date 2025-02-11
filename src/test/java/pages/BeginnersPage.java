@@ -9,9 +9,9 @@ import static com.codeborne.selenide.Selenide.$;
 public class BeginnersPage {
 
     SelenideElement mainTitleLocator = $("div#b1-firstscreen span.H-title-for-pages-hr"),
-                    beginCareerButton = $("button.btn-search-main.OSFillParent"),
-                    moreInCareerButton = $("button.btn-search-exp-itbig"),
-                    secondaryTextLocator = $("div[data-container] span[style*='color: rgb(168, 166, 179)']");
+            beginCareerButton = $("button.btn-search-main.OSFillParent"),
+            moreInCareerButton = $("button.btn-search-exp-itbig"),
+            secondaryTextLocator = $("div[data-container] span[style*='color: rgb(168, 166, 179)']");
 
     @Step("Check that Main Title in Internship has text {title}")
     public BeginnersPage checkMainTitle(String title) {

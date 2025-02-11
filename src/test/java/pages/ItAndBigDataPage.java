@@ -20,6 +20,7 @@ public class ItAndBigDataPage {
         itOptionLocator.click();
         return this;
     }
+
     @Step("Get the list of job items and assert that at least one contains the label {filterName}")
     public ItAndBigDataPage checkFilterInJobList(String filterName) {
         jobItems.findBy(text(filterName))

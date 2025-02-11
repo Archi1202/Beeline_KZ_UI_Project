@@ -2,8 +2,8 @@ package tests;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
-import configs.web.WebDriverConfig;
 import configs.WebDriverProvider;
+import configs.web.WebDriverConfig;
 import helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.aeonbits.owner.ConfigFactory;

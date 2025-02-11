@@ -100,7 +100,7 @@ public class PeopleBeelineTests extends TestBase {
     void verifyFilterLevelTest() {
         peoplePage.openPeoplePage()
                 .navigateToITAndBigDataSection();
-        peoplePage.selectDropdownOptionByName("Уровень","Senior");
+        peoplePage.selectDropdownOptionByName("Уровень", "Senior");
         itAndBigDataPage.checkFilterInJobList("Senior");
     }
 
