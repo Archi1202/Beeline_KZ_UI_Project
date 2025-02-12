@@ -1,6 +1,7 @@
 package pages;
 
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 
@@ -15,13 +16,36 @@ public class MainPage {
             selectedCity = $(".regions-select option[selected='selected']"),
             whatsUpButton = $(".svg-whatsapp"),
             telegramButton = $(".svg-telegram"),
-            careerPageLink = $("ul[data-test='footer_list-group'] a[href='https://people.beeline.kz/']");
+            careerPageLink = $("ul[data-test='footer_list-group'] a[href='https://people.beeline.kz/']"),
+            searchButton = $("button.float-right.close-btns div[data-test='header_click-search-button']"),
+            searchFieldSelector = $("input[data-test='header_search-input']");
+    private final ElementsCollection
+            listOfResultsSelector = $$("div.py-2.source-title a");
 
     @Step("Open Beeline KZ page")
     public MainPage openPage() {
         open("https://beeline.kz/ru");
         return this;
     }
+
+    @Step("Click on Search button from the Main Page")
+    public MainPage clickOnSearchButton() {
+        searchButton.click();
+        return this;
+    }
+
+    @Step("Insert value into the search field")
+    public MainPage enterSearchValue(String value) {
+        searchFieldSelector.setValue(value).pressEnter();
+        return this;
+    }
+
+    @Step("Click on the first search result")
+    public MainPage openFirstSearchResult() {
+        listOfResultsSelector.first().click();
+        return this;
+    }
+
 
     @Step("Check 'WhatsUp' button on the bottom section")
     public MainPage checkWhatsUpButton() {
