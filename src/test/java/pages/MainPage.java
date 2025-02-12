@@ -19,7 +19,7 @@ public class MainPage {
 
     @Step("Open Beeline KZ page")
     public MainPage openPage() {
-        open("/");
+        open("https://beeline.kz/ru");
         return this;
     }
 

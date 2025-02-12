@@ -6,9 +6,6 @@ import org.aeonbits.owner.Config;
 @Config.Sources({"classpath:properties/${env}.properties", "classpath:properties/local.properties"})
 
 public interface WebDriverConfig extends Config {
-    @Key("baseUrl")
-    String getBaseUrl();
-
     @Key("browser")
     @DefaultValue("CHROME")
     Browser getBrowser();

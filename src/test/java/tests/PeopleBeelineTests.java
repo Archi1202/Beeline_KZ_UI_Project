@@ -1,6 +1,5 @@
 package tests;
 
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.*;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -21,7 +20,6 @@ public class PeopleBeelineTests extends TestBase {
 
     @BeforeEach
     void setUpPeoplePage() {
-        Configuration.baseUrl = "https://people.beeline.kz";
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 

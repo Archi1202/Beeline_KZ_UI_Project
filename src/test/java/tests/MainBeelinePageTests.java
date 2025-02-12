@@ -19,7 +19,6 @@ public class MainBeelinePageTests extends TestBase {
 
     @BeforeEach
     void setUpPeoplePage() {
-        Configuration.baseUrl = "https://beeline.kz/ru";
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 
