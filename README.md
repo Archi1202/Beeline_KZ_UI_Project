@@ -11,11 +11,11 @@ This project aims to ensure high-quality standards for Beeline's online presence
 
 **Beeline Main Page**
 
-<img align="center" src="media/images/icons/BeelineKZPage.png" width="650" height="350"/>
+<img "center" src="media/images/icons/BeelineKZPage.png" width="650" height="350" alt=""/>
 
 **Beeline People Page**
 
-<img align="center" src="media/images/icons/Beeline People page.png" width="650" height="350"/>
+<img "center" src="media/images/icons/Beeline People page.png" width="650" height="350"/>
 
 ---
 
@@ -33,7 +33,7 @@ This project leverages cutting-edge automation tools and frameworks to deliver a
 <p align="left">
 <img align="center" src="media/images/icons/java-original-wordmark.svg" width="50" height="50"/> 
 <img align="center" src="media/images/icons/selenide-logo-big.png" width="50" height="50"/>
-<img align="center" src="media/images/icons/intellij-original.svg" width="50" height="50"/>
+<img align="center" src="media/images/icons/intellij-original.svg" width="50" height="50" alt=""/>
 <img align="center" src="media/images/icons/gradle-original-wordmark.svg" width="50" height="50"/>
 <img align="center" src="media/images/icons/junit-original-wordmark.svg" width="50" height="50"/>
 <img align="center" src="media/images/icons/Allure Report icon.png" width="80" height="40"/>
@@ -139,6 +139,8 @@ To view Allure reports:
 2. Generate the Allure report: `allure serve target/allure-results`
 
 **Allure Report Overview:**
+
+**Allure Report Link**: [Beeline KZ Allure Report](https://jenkins.autotests.cloud/job/Beeline_KZ_UI_Project/allure/)
 
 <img align="center" src="media/images/screens/Allure_summary_report.png" width="650" height="350"/>
 
