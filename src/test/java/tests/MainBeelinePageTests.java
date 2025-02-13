@@ -86,7 +86,7 @@ public class MainBeelinePageTests extends TestBase {
     @Tag("Beeline_Main_Page")
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
-    @DisplayName("Open 'Вакансии и карьера в Beeline' from the Main Page")
+    @DisplayName("Check that user can open 'Вакансии и карьера в Beeline' from the Main Page")
     void checkPeopleCareerPageTest() {
         mainPage.openPage()
                 .navigateToCareerPage();
