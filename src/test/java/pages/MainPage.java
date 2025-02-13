@@ -17,7 +17,7 @@ public class MainPage {
             whatsUpButton = $(".svg-whatsapp"),
             telegramButton = $(".svg-telegram"),
             careerPageLink = $("ul[data-test='footer_list-group'] a[href='https://people.beeline.kz/']"),
-            searchButton = $("button.float-right.close-btns div[data-test='header_click-search-button']"),
+            searchButton = $("button.float-right.close-btns"),
             searchFieldSelector = $("input[data-test='header_search-input']"),
             articleSelector = $(".container.pt-3 .action__txt");
 
