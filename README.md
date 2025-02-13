@@ -76,7 +76,8 @@ Below is a detailed breakdown of test cases automated within this project:
 | TC11 | **Verify visibility of the FAQ section on the Internship page**                                       | Confirm that users can reveal hidden answers to questions in the "Ответы на частые вопросы" section.                                     |
 | TC12 | **Ensure the 'Остались вопросы?' section is displayed at the bottom of the page**                     | Verify that the bottom section contains a visible title and a button for users to connect with support.                                  |
 | TC13 | **Check search functionality with valid data on the Beeline Main Page**                               | Verify that Search functionality from the Main Page works with valid data and relevant result can be opened                              |
-| TC14 | **Check More button and Fraud section with FAQ from the Main Page**                                   | User should be able to see expanded answer for selected question from Fraud page                                                         |
+| TC14 | **Check More button and Fraud section with FAQ from the Main Page**                                   | User should be able to see expanded answer for selected question from Fraud page                                                           | 
+|TC15 | **Check that user can open 'Вакансии и карьера в Beeline' from the Main Page**                        | People Page opens for User from the footer side on the Main Page                          
 
 ---
 
