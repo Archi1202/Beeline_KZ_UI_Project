@@ -16,13 +16,13 @@ import pages.PeoplePage;
 
 public class MainBeelinePageTests extends TestBase {
 
+    MainPage mainPage = new MainPage();
+    PeoplePage peoplePage = new PeoplePage();
+
     @BeforeEach
     void setUpPeoplePage() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
-
-    MainPage mainPage = new MainPage();
-    PeoplePage peoplePage = new PeoplePage();
 
     @Test
     @Tag("Beeline_Main_Page")
@@ -39,13 +39,26 @@ public class MainBeelinePageTests extends TestBase {
     @Tag("Beeline_Main_Page")
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
-    @DisplayName("Check search functionality on the Beeline Main Page")
+    @DisplayName("Check search functionality with valid data on the Beeline Main Page")
     void checkSearchFunctionalityTest() {
         mainPage.openPage()
                 .clickOnSearchButton()
                 .enterSearchValue("NOKIA")
                 .openFirstSearchResult()
                 .verifyArticleFromSearch("NOKIA");
+    }
+
+    @Test
+    @Tag("Beeline_Main_Page")
+    @Severity(SeverityLevel.CRITICAL)
+    @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
+    @DisplayName("Check More button and Fraud section with FAQ from the Main Page")
+    void checkFraudSectionTest() {
+        mainPage.openPage()
+                .navigateToMoreSection()
+                .clickOnFraudOption()
+                .findQuestionAndExpandIt("Прислали сообщение с просьбой о помощи от лица близкого человека")
+                .checkAnswerForFraud("Не паникуйте и не переводите деньги.");
     }
 
     @Test
