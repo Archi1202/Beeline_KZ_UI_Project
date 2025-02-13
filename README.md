@@ -1,4 +1,4 @@
-# Beeline Kazakhstan - UI Project for QA.GURU <img align="center" src="src/test/resources/images/icons/BeelinePeopleLogo.png" width="50" height="50"/>
+# Beeline Kazakhstan - UI Project for QA.GURU <img align="center" src="media/images/icons/BeelinePeopleLogo.png" width="50" height="50"/>
 
 Automated tests for the [Beeline Kazakhstan](https://beeline.kz) website, focusing on navigation, elements visibility,
 **Вакансии и карьера в Beeline**.
@@ -200,6 +200,9 @@ It records every test execution, aiding in debugging and providing a visual repr
 
 **Example Test Execution Video:**
 
-https://github.com/user-attachments/assets/92193ae6-beb3-4cb5-b5d9-4092e39c6022
+
+https://github.com/user-attachments/assets/67a1db64-bdd2-4e2e-81be-1608d26041bb
+
+
 
 ---
