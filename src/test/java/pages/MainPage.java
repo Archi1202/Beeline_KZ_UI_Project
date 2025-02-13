@@ -18,7 +18,9 @@ public class MainPage {
             telegramButton = $(".svg-telegram"),
             careerPageLink = $("ul[data-test='footer_list-group'] a[href='https://people.beeline.kz/']"),
             searchButton = $("button.float-right.close-btns div[data-test='header_click-search-button']"),
-            searchFieldSelector = $("input[data-test='header_search-input']");
+            searchFieldSelector = $("input[data-test='header_search-input']"),
+            articleSelector = $(".container.pt-3 .action__txt");
+
     private final ElementsCollection
             listOfResultsSelector = $$("div.py-2.source-title a");
 
@@ -45,6 +47,14 @@ public class MainPage {
         listOfResultsSelector.first().click();
         return this;
     }
+
+    @Step("Verify that article from search has text {0}")
+    public MainPage verifyArticleFromSearch(String value) {
+        articleSelector.shouldHave(text(value));
+        return this;
+    }
+
+
 
 
     @Step("Check 'WhatsUp' button on the bottom section")

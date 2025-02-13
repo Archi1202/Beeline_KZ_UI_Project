@@ -12,16 +12,16 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class InternshipPage {
 
-    SelenideElement
-            allPositionsButton = $(".btn-search-main"),
-            frequentQuestionsLocator = $("div#b1-answer div.H-title-for-pages-hr span"),
-            bottomHeaderQuestionsLocator = $("div.last_blocks_student span.H-title-for-pages-hr"),
-            bottomAskQuestionButton = $("div.last_blocks_student button.btn-blocks-hr");
+    final SelenideElement
+            allPositionsButton = $(".btn-search-main");
+    final SelenideElement frequentQuestionsLocator = $("div#b1-answer div.H-title-for-pages-hr span");
+    final SelenideElement bottomHeaderQuestionsLocator = $("div.last_blocks_student span.H-title-for-pages-hr");
+    final SelenideElement bottomAskQuestionButton = $("div.last_blocks_student button.btn-blocks-hr");
 
-    ElementsCollection
-            questionsCollection = $$("div.card-arrow"),
-            answersCollection = $$("div.hidden.answer-container"),
-            jobTitles = $$(".job-title");
+    final ElementsCollection
+            questionsCollection = $$("div.card-arrow");
+    final ElementsCollection answersCollection = $$("div.hidden.answer-container");
+    final ElementsCollection jobTitles = $$(".job-title");
 
     @Step("Click on the 'All Positions' button")
     public InternshipPage searchAllPosition() {

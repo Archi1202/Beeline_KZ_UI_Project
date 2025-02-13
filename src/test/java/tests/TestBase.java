@@ -13,11 +13,9 @@ import org.junit.jupiter.api.BeforeEach;
 
 public class TestBase {
 
-    private static WebDriverConfig config;
-
     @BeforeAll
     static void setUp() {
-        config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
+        WebDriverConfig config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
         WebDriverProvider webConfig = new WebDriverProvider(config);
         webConfig.setUp();
     }

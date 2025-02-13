@@ -11,9 +11,9 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class ItAndBigDataPage {
 
-    SelenideElement itOptionLocator = $(".tags-hr-button-itbigdata.item4");
+    final SelenideElement itOptionLocator = $(".tags-hr-button-itbigdata.item4");
 
-    ElementsCollection jobItems = $$("[data-container].list-item_hr");
+    final ElementsCollection jobItems = $$("[data-container].list-item_hr");
 
     @Step("Select option 'IT' from the available search filters")
     public ItAndBigDataPage selectItOption() {

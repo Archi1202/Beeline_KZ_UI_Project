@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class PeoplePage {
 
-    private SelenideElement
+    private final SelenideElement
             searchPositionInput = $("input.main-search-page"),
             searchPositionButton = $(".btn-search-main"),
             titleInput = $("div[data-container] span"),
@@ -22,7 +22,7 @@ public class PeoplePage {
             allPositionsButton = $("button.btn-blocks-hr[data-button]");
 
 
-    private ElementsCollection dropdownLocator = $$("div.dropdown-container");
+    private final ElementsCollection dropdownLocator = $$("div.dropdown-container");
 
     @Step("Open the People Beeline page")
     public PeoplePage openPeoplePage() {

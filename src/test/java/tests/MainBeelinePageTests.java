@@ -1,6 +1,5 @@
 package tests;
 
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.*;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -13,7 +12,7 @@ import pages.PeoplePage;
 
 @Feature("Beeline Kazakhstan Main Page")
 @Owner("Anuar Zhangeldi")
-@DisplayName("Check features on the Main Page and QA position search in Beeline People")
+@DisplayName("Check features on the Main Page")
 
 public class MainBeelinePageTests extends TestBase {
 
@@ -31,9 +30,22 @@ public class MainBeelinePageTests extends TestBase {
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
     @DisplayName("Confirm 'WhatsUp' and 'Telegram' buttons appear on the main page")
     void checkBottomLineInfoTest() {
-        mainPage.openPage();
-        mainPage.checkWhatsUpButton();
-        mainPage.checkTelegramButton();
+        mainPage.openPage()
+                .checkWhatsUpButton()
+                .checkTelegramButton();
+    }
+
+    @Test
+    @Tag("Beeline_Main_Page")
+    @Severity(SeverityLevel.CRITICAL)
+    @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
+    @DisplayName("Check search functionality on the Beeline Main Page")
+    void checkSearchFunctionalityTest() {
+        mainPage.openPage()
+                .clickOnSearchButton()
+                .enterSearchValue("NOKIA")
+                .openFirstSearchResult()
+                .verifyArticleFromSearch("NOKIA");
     }
 
     @Test
@@ -42,9 +54,9 @@ public class MainBeelinePageTests extends TestBase {
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
     @DisplayName("Validate location selection functionality on the main page")
     void changeLocationTest() {
-        mainPage.openPage();
-        mainPage.setCity("Астана");
-        mainPage.checkChangedLocation("Астана");
+        mainPage.openPage()
+                .setCity("Астана")
+                .checkChangedLocation("Астана");
     }
 
     @Test
@@ -52,10 +64,21 @@ public class MainBeelinePageTests extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
     @DisplayName("Ensure 'Вакансии и карьера в Beeline' link is present in the footer")
-    void checkPeopleCareerNavigationTest() {
-        mainPage.openPage();
-        mainPage.checkCareerSection();
-        mainPage.navigateToCareerPage();
+    void checkPeopleCareerLinkTest() {
+        mainPage.openPage()
+                .checkCareerSection();
+    }
+
+    @Test
+    @Tag("Beeline_Main_Page")
+    @Severity(SeverityLevel.CRITICAL)
+    @Link(value = "Beeline Kazakhstan Main page", url = "https://beeline.kz/ru")
+    @DisplayName("Open 'Вакансии и карьера в Beeline' from the Main Page")
+    void checkPeopleCareerPageTest() {
+        mainPage.openPage()
+                .navigateToCareerPage();
         peoplePage.checkCareerPage();
     }
+
+
 }
