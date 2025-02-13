@@ -16,8 +16,8 @@ import pages.PeoplePage;
 
 public class MainBeelinePageTests extends TestBase {
 
-    MainPage mainPage = new MainPage();
-    PeoplePage peoplePage = new PeoplePage();
+    final MainPage mainPage = new MainPage();
+    final PeoplePage peoplePage = new PeoplePage();
 
     @BeforeEach
     void setUpPeoplePage() {

@@ -23,10 +23,10 @@ public class PeopleBeelineTests extends TestBase {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 
-    PeoplePage peoplePage = new PeoplePage();
-    ItAndBigDataPage itAndBigDataPage = new ItAndBigDataPage();
-    InternshipPage internshipPage = new InternshipPage();
-    BeginnersPage beginnersPage = new BeginnersPage();
+    final PeoplePage peoplePage = new PeoplePage();
+    final ItAndBigDataPage itAndBigDataPage = new ItAndBigDataPage();
+    final InternshipPage internshipPage = new InternshipPage();
+    final BeginnersPage beginnersPage = new BeginnersPage();
 
     @Test
     @Tag("Beeline_People_Page")
@@ -49,7 +49,7 @@ public class PeopleBeelineTests extends TestBase {
         peoplePage.openPeoplePage()
                 .searchPosition("QA Automation engineer")
                 .checkPositionTitle("QA Automation engineer")
-                .navigateToPositionDetails("QA Automation engineer")
+                .navigateToPositionDetails()
                 .checkPositionDetails("QA Automation engineer");
     }
 

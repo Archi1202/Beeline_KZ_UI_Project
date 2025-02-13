@@ -43,7 +43,7 @@ public class PeoplePage {
     }
 
     @Step("Click on the position title to open detailed page")
-    public PeoplePage navigateToPositionDetails(String positionTitle) {
+    public PeoplePage navigateToPositionDetails() {
         jobTitleInput.click();
         return this;
     }
