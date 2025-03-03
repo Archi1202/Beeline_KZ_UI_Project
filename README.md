@@ -11,7 +11,7 @@ This project aims to ensure high-quality standards for Beeline's online presence
 
 **Beeline Main Page**
 
-<img align="center" src="media/images/icons/BeelineKZPage.png" width="650" height="350"/>
+<img align="center" src="media/images/icons/BeelineKZPage.png" width="650" height="450"/>
 
 **Beeline People Page**
 
