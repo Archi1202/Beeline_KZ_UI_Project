@@ -11,11 +11,11 @@ This project aims to ensure high-quality standards for Beeline's online presence
 
 **Beeline Main Page**
 
-<img "center" src="media/images/icons/BeelineKZPage.png" width="650" height="350" alt=""/>
+<img align="center" src="media/images/icons/BeelineKZPage.png" width="650" height="350"/>
 
 **Beeline People Page**
 
-<img "center" src="media/images/icons/Beeline People page.png" width="650" height="350"/>
+<img align="center" src="media/images/icons/Beeline People page.png" width="650" height="350"/>
 
 ---
 
